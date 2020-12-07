@@ -1,0 +1,27 @@
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&family=Sacramento&display=swap');
+
+.custom-bg {
+    background-color: #494949;
+}
+
+.pink {
+    color: $pink;
+}
+
+
+//Navbar
+
+nav {
+    font-family: 'Sacramento', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+
+    #home {
+        font-size: 3rem;
+    }
+
+    .login {
+        font-size: 1.5rem;
+    }
+}
+
