@@ -1,4 +1,38 @@
 {% extends 'base.html.twig' %}
 
+{% block body %}
+    <div class="container">
+        <header id="home" class="d-flex flex-column align-items-center justify-content-center">
+            <h1 class="mb-5">Sébastien
+                <span class="pink">&</span>
+                Charlotte</h1>
+            <h2 class="mb-5">Nous allons nous marier...</h2>
+            <button class="btn btn-primary">Présent !</button>
+        </header>
+    </div>
 
-{% block body %}{% endblock %}
+    {# parallax #}
+    <div class="parallax" id="parallax_1"></div>
+
+    <section id="couple" class="couple">
+        <div>
+            <h2>Notre couple</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ex minus voluptates provident fuga,perspiciatis dolorem odio quisquam fugit, quis veritatis? Iste, voluptatum? Doloremque accusantium quidem voluptatem aperiam blanditiis eligendi?
+                Deserunt consequatur fugiat iusto ex autem. Quos tempora facilis iste quo maiores ut atque rerum, cupiditate nulla, numquam reiciendis ipsa deleniti blanditiis corrupti doloribus labore repellendus ad nisi sint commodi!
+            </p>
+        </div>
+        <div class="couple-both">
+            <div class="couple-H">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi facere ratione quae, veritatis praesentium illum neque dolor. Iure porro ex atque quo excepturi numquam ipsum dicta consequuntur non officiis!</p>
+                <img src="/img/seb.png" alt="Sébastien">
+            </div>
+            <div class="heart">
+                <i class="fa fa-heart fa-5x" aria-hidden="true"></i>
+            </div>
+            <div class="couple-F">
+                <img src="/img/cha.png" alt="Charlotte">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi facere ratione quae, veritatis praesentium illum neque dolor. Iure porro ex atque quo excepturi numquam ipsum dicta consequuntur non officiis!</p>
+            </div>
+        </div>
+    </section>
+{% endblock %}

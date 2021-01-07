@@ -23,6 +23,7 @@
         "build": "encore production --progress"
     },
     "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.1",
         "purgecss-webpack-plugin": "^3.0.0"
     }
 }

@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+	<section class="where">
+		<h2>Où et Quand?</h2>
+		{# cards #}
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 card-container">
+					<div class="card-flip">
+						<div class="card front">
+							<h3>Cérémonie</h3>
+							<div class="bg-card">
+								<img src="/img/2.jpg" alt="">
+							</div>
+						</div>
+						<div class=" card back text-center">
+							<ul class="list-group">
+								<li class="list-group-item">
+									<i class="far fa-calendar-alt fa-lg"></i>
+									<h4>Le 4 Juillet 2022</h4>
+									<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae mollitia aut quas magnam, quae reiciendis ipsum repellat magni laboriosam et earum deleniti explicabo corrupti officia.</p>
+								</li>
+							</liclass="list-group-item">
+							<li class="list-group-item">
+								<i class="far fa-clock fa-lg"></i>
+								<h4>Rendez-vous à 14h</h4>
+								<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae mollitia aut quas magnam, quae reiciendis ipsum repellat magni laboriosam et earum deleniti explicabo corrupti officia.</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 offset-md-3 card-container">
+				<div class="card-flip">
+					<div class="card front">
+						<h1>FACE 1</h1>
+					</div>
+					<div class=" card back">
+						<h1>FACE 2</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	{# parallax #}
+	<div class="parallax" id="parallax_2"></div>
+
+</section>{% endblock %}
